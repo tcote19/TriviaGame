@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game by Thomas Cote</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header><div class="container jumbotron"></div></header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 inline-block text-center">
+				<p>by Thomas Cote</p>
+			</div>
+		</div>
+		<div class="container" id="timer-container">
+			<div class="row">
+				<div class="col-sm-3 fixed">
+					<h4>Time Remaining<div id="timer"></div></h4>
+				</div>
+			</div>
+		</div>
+
+
+	<!-- Trivia Question Section -->
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3 inline-block text-center">
+				<div class="card">
+	    			<div id="card-body">
+						<h4 id="question-number"></h4>
+						<p id="question-text"></p>
+						<button id="answer-choice-a" class="btn-md btn-primary"></button>
+						<button id="answer-choice-b" class="btn-md btn-primary"></button>
+						<button id="answer-choice-c" class="btn-md btn-primary"></button>
+	    			</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3 inline-block text-center">
+				<button type="button" class="btn btn-success btn-lg" id="next-question">Next Question</button>
+				<button type="button" class="btn btn-warning btn-lg" id="submit-quiz">Submit Quiz</button>
+			</div>
+		</div>
+
+	</div> <!-- Main Container Div -->
+		<div class="footer-copyright">
+			<div class="container-fluid">
+		    	<p>© 2017 Copyright Thomas Cote</p>
+		    </div>
+		</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
